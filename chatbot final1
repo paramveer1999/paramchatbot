@@ -11,7 +11,7 @@ responses = ["I'm fine",'I am doing well, how about you?']
 
 question1 = ['time','date']
 question2 = ['bye','goodbye','leave']
-response2 = ['See you again!','Have a great day!']
+response2 = ['See you again','Have a great day']
 cmd1 = ['youtube','google','facebook','gmail']
 cmd2 = ['search','about']
 var1 = ['who made you', 'who created you']
@@ -35,7 +35,7 @@ while True:
                 string1=("www."+userInput+".com")
                 webbrowser.open(string1)
         elif userInput in var1:
-                print("Bot:",random.choice(var2))
+                print(" hi Bot:",random.choice(var2))
         elif userInput in var3:
                 print("Bot:",random.choice(var4))
         elif userInput in question2:
